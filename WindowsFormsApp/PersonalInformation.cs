@@ -28,7 +28,7 @@ namespace WindowsFormsApp
 
         private void saveButton_Click(object sender, EventArgs e)
         {
-            resultRichTextBox.Text ="Your First Name: " +fastNameTextBox.Text + " " + "Your Last Name: "+lastNameTextBox.Text + "\n" +"Father's Name: "+ fatherNameTextBox.Text + "\n" + "Mother's Name: "+motherNameTextBox.Text + "\n" + "Address: "+addressTextBox.Text;
+            resultgroupBox.Text ="Your First Name: " +fastNameTextBox.Text + " " + "Your Last Name: "+lastNameTextBox.Text + "\n" +"Father's Name: "+ fatherNameTextBox.Text + "\n" + "Mother's Name: "+motherNameTextBox.Text + "\n" + "Address: "+addressTextBox.Text;
         }
 
         private void nameButton_Click(object sender, EventArgs e)

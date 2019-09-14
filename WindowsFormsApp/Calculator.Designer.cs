@@ -43,16 +43,16 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(43, 58);
+            this.label1.Location = new System.Drawing.Point(39, 58);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(66, 13);
+            this.label1.Size = new System.Drawing.Size(69, 13);
             this.label1.TabIndex = 0;
-            this.label1.Text = "First Number";
+            this.label1.Text = "First Number:";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(43, 119);
+            this.label2.Location = new System.Drawing.Point(37, 119);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(90, 13);
             this.label2.TabIndex = 1;
@@ -61,7 +61,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(43, 175);
+            this.label3.Location = new System.Drawing.Point(37, 175);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(37, 13);
             this.label3.TabIndex = 2;
@@ -69,7 +69,7 @@
             // 
             // addBottun
             // 
-            this.addBottun.Location = new System.Drawing.Point(46, 261);
+            this.addBottun.Location = new System.Drawing.Point(58, 261);
             this.addBottun.Name = "addBottun";
             this.addBottun.Size = new System.Drawing.Size(75, 23);
             this.addBottun.TabIndex = 3;
@@ -83,7 +83,7 @@
             this.subButton.Name = "subButton";
             this.subButton.Size = new System.Drawing.Size(75, 23);
             this.subButton.TabIndex = 4;
-            this.subButton.Text = "Sub";
+            this.subButton.Text = "Subtract";
             this.subButton.UseVisualStyleBackColor = true;
             this.subButton.Click += new System.EventHandler(this.subButton_Click);
             // 
@@ -93,7 +93,7 @@
             this.multButton.Name = "multButton";
             this.multButton.Size = new System.Drawing.Size(75, 23);
             this.multButton.TabIndex = 5;
-            this.multButton.Text = "Mult";
+            this.multButton.Text = "Multiply";
             this.multButton.UseVisualStyleBackColor = true;
             this.multButton.Click += new System.EventHandler(this.multButton_Click);
             // 
@@ -103,7 +103,7 @@
             this.divButton.Name = "divButton";
             this.divButton.Size = new System.Drawing.Size(75, 23);
             this.divButton.TabIndex = 6;
-            this.divButton.Text = "Division";
+            this.divButton.Text = "Divide";
             this.divButton.UseVisualStyleBackColor = true;
             this.divButton.Click += new System.EventHandler(this.divButton_Click);
             // 

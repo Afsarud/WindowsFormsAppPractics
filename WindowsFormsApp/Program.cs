@@ -18,8 +18,8 @@ namespace WindowsFormsApp
             Application.SetCompatibleTextRenderingDefault(false);
             //Application.Run(new Home());
             //Application.Run(new WindowsFormApp());
-            //Application.Run(new PersonalInformation());
-            Application.Run(new Calculator());
+            Application.Run(new PersonalInformation());
+            //Application.Run(new Calculator());
         }
     }
 }

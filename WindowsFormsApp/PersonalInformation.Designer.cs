@@ -33,7 +33,6 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
             this.fastNameTextBox = new System.Windows.Forms.TextBox();
             this.lastNameTextBox = new System.Windows.Forms.TextBox();
             this.fatherNameTextBox = new System.Windows.Forms.TextBox();
@@ -45,12 +44,15 @@
             this.parantNameButton = new System.Windows.Forms.Button();
             this.addressButton = new System.Windows.Forms.Button();
             this.resultRichTextBox = new System.Windows.Forms.RichTextBox();
+            this.resultgroupBox = new System.Windows.Forms.GroupBox();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.groupBox2.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(40, 76);
+            this.label1.Location = new System.Drawing.Point(13, 57);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(57, 13);
             this.label1.TabIndex = 0;
@@ -59,7 +61,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(40, 121);
+            this.label2.Location = new System.Drawing.Point(13, 102);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(58, 13);
             this.label2.TabIndex = 1;
@@ -68,7 +70,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(40, 158);
+            this.label3.Location = new System.Drawing.Point(13, 139);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(75, 13);
             this.label3.TabIndex = 2;
@@ -77,7 +79,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(40, 201);
+            this.label4.Location = new System.Drawing.Point(13, 182);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(78, 13);
             this.label4.TabIndex = 3;
@@ -86,52 +88,43 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(40, 250);
+            this.label5.Location = new System.Drawing.Point(13, 231);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(45, 13);
             this.label5.TabIndex = 4;
             this.label5.Text = "Address";
             // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(192, 35);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(103, 13);
-            this.label6.TabIndex = 5;
-            this.label6.Text = "Personal Information";
-            // 
             // fastNameTextBox
             // 
-            this.fastNameTextBox.Location = new System.Drawing.Point(140, 73);
+            this.fastNameTextBox.Location = new System.Drawing.Point(113, 54);
             this.fastNameTextBox.Name = "fastNameTextBox";
             this.fastNameTextBox.Size = new System.Drawing.Size(138, 20);
             this.fastNameTextBox.TabIndex = 6;
             // 
             // lastNameTextBox
             // 
-            this.lastNameTextBox.Location = new System.Drawing.Point(140, 118);
+            this.lastNameTextBox.Location = new System.Drawing.Point(113, 99);
             this.lastNameTextBox.Name = "lastNameTextBox";
             this.lastNameTextBox.Size = new System.Drawing.Size(138, 20);
             this.lastNameTextBox.TabIndex = 7;
             // 
             // fatherNameTextBox
             // 
-            this.fatherNameTextBox.Location = new System.Drawing.Point(140, 155);
+            this.fatherNameTextBox.Location = new System.Drawing.Point(113, 136);
             this.fatherNameTextBox.Name = "fatherNameTextBox";
             this.fatherNameTextBox.Size = new System.Drawing.Size(138, 20);
             this.fatherNameTextBox.TabIndex = 8;
             // 
             // motherNameTextBox
             // 
-            this.motherNameTextBox.Location = new System.Drawing.Point(140, 198);
+            this.motherNameTextBox.Location = new System.Drawing.Point(113, 179);
             this.motherNameTextBox.Name = "motherNameTextBox";
             this.motherNameTextBox.Size = new System.Drawing.Size(138, 20);
             this.motherNameTextBox.TabIndex = 9;
             // 
             // addressTextBox
             // 
-            this.addressTextBox.Location = new System.Drawing.Point(140, 247);
+            this.addressTextBox.Location = new System.Drawing.Point(113, 228);
             this.addressTextBox.Name = "addressTextBox";
             this.addressTextBox.Size = new System.Drawing.Size(138, 20);
             this.addressTextBox.TabIndex = 10;
@@ -188,38 +181,58 @@
             // 
             // resultRichTextBox
             // 
-            this.resultRichTextBox.Location = new System.Drawing.Point(385, 73);
+            this.resultRichTextBox.Location = new System.Drawing.Point(397, 73);
             this.resultRichTextBox.Name = "resultRichTextBox";
-            this.resultRichTextBox.Size = new System.Drawing.Size(219, 269);
+            this.resultRichTextBox.Size = new System.Drawing.Size(231, 157);
             this.resultRichTextBox.TabIndex = 16;
             this.resultRichTextBox.Text = "";
+            // 
+            // resultgroupBox
+            // 
+            this.resultgroupBox.Location = new System.Drawing.Point(397, 263);
+            this.resultgroupBox.Name = "resultgroupBox";
+            this.resultgroupBox.Size = new System.Drawing.Size(206, 122);
+            this.resultgroupBox.TabIndex = 17;
+            this.resultgroupBox.TabStop = false;
+            this.resultgroupBox.Text = "Personal Information";
+            // 
+            // groupBox2
+            // 
+            this.groupBox2.Controls.Add(this.addressTextBox);
+            this.groupBox2.Controls.Add(this.motherNameTextBox);
+            this.groupBox2.Controls.Add(this.fatherNameTextBox);
+            this.groupBox2.Controls.Add(this.lastNameTextBox);
+            this.groupBox2.Controls.Add(this.fastNameTextBox);
+            this.groupBox2.Controls.Add(this.label5);
+            this.groupBox2.Controls.Add(this.label4);
+            this.groupBox2.Controls.Add(this.label3);
+            this.groupBox2.Controls.Add(this.label2);
+            this.groupBox2.Controls.Add(this.label1);
+            this.groupBox2.Location = new System.Drawing.Point(33, 31);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(358, 323);
+            this.groupBox2.TabIndex = 18;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "Personal Information";
             // 
             // PersonalInformation
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(653, 476);
+            this.Controls.Add(this.groupBox2);
+            this.Controls.Add(this.resultgroupBox);
             this.Controls.Add(this.resultRichTextBox);
             this.Controls.Add(this.addressButton);
             this.Controls.Add(this.parantNameButton);
             this.Controls.Add(this.nameButton);
             this.Controls.Add(this.showAllIfoButton);
             this.Controls.Add(this.saveButton);
-            this.Controls.Add(this.addressTextBox);
-            this.Controls.Add(this.motherNameTextBox);
-            this.Controls.Add(this.fatherNameTextBox);
-            this.Controls.Add(this.lastNameTextBox);
-            this.Controls.Add(this.fastNameTextBox);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
             this.Name = "PersonalInformation";
             this.Text = "PersonalInformation";
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox2.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -230,7 +243,6 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox fastNameTextBox;
         private System.Windows.Forms.TextBox lastNameTextBox;
         private System.Windows.Forms.TextBox fatherNameTextBox;
@@ -242,5 +254,7 @@
         private System.Windows.Forms.Button parantNameButton;
         private System.Windows.Forms.Button addressButton;
         private System.Windows.Forms.RichTextBox resultRichTextBox;
+        private System.Windows.Forms.GroupBox resultgroupBox;
+        private System.Windows.Forms.GroupBox groupBox2;
     }
 }
